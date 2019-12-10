@@ -1,0 +1,8 @@
+use pointer math
+
+offset = 0;
+ for (...) // a for loop
+
+ MPI_SEND (pA + offset) do the sending, first parameter is array plus offset
+
+ offset += bucketSize; //increment bucket size to go to next place in array.

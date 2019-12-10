@@ -1,0 +1,4 @@
+To run in a Bash on your personal computer:
+
+mpirun -n <number of processors> bin/mpi-bs.mpi
+

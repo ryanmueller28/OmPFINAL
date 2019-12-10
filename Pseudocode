@@ -1,0 +1,43 @@
+//MPI_Send
+
+//Segment Arrays
+
+//Odds and Evens
+unsigned pIndex =((max(unsigned) / m) * (rank - 1); //lowest point in array to be sent
+unsigned index = ((max(unsigned) / m) * rank; //max point in array
+
+//Send array in segements
+if (rank % 2 == 0) //Ryan: Logic and Basic statements
+{
+    for (int i = 1; i < nProcs; i += 2)
+    {
+        if(i != rank)
+        {
+            //send
+        }
+    }
+
+    for (int i = 1; i < nProcs; i += 2)
+    {
+        if (i != rank){
+            //receive
+        }
+    }
+else {
+        for (int i = 1; i < nProcs; i += 2)
+    {
+        if(i != rank)
+        {
+            //send
+        }
+    }
+
+    for (int i = 1; i < nProcs; i += 2)
+    {
+        if (i != rank){
+            //receive
+        }
+    }
+}
+
+//send segemented array to buckets
