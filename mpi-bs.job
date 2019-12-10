@@ -1,12 +1,12 @@
 #!/bin/bash -l
 
 #SBATCH -n 8
-#SBATCH --output mpi-bs.out
+#SBATCH --output=mpi-bs.out
 #SBATCH --mail-user ryan.mueller@doane.edu
 #SBATCH --mail-user kira.reisdorph@doane.edu
 #SBATCH --mail-user devan.standley@doane.edu
 #SBATCH --mail-user jacob.williams@doane.edu
 #SBATCH --mail-type=ALL
 
-module load OpenMPI
+module load openmpi
 mpirun bin/mpi-bs.mpi
