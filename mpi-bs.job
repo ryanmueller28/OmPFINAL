@@ -1,0 +1,10 @@
+#SBATCH -n 16
+#SBATCH --output mpi-bs.out
+#SBATCH --mail-user ryan.mueller@doane.edu
+#SBATCH --mail-user kira.reisdorph@doane.edu
+#SBATCH --mail-user devan.standley@doane.edu
+#SBATCH --mail-user jacob.williams@doane.edu
+#SBATCH --mail-type Allocation
+
+module load OpenMPI
+mpirun bin/mpi-bs.mpi
