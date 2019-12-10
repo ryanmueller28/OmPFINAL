@@ -1,6 +1,6 @@
 #!/bin/bash -l
 
-#SBATCH -n 16
+#SBATCH -n 8
 #SBATCH --output mpi-bs.out
 #SBATCH --mail-user ryan.mueller@doane.edu
 #SBATCH --mail-user kira.reisdorph@doane.edu
